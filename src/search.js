@@ -67,7 +67,7 @@ function searchEngine( word ){
 
 $(document).ready(function(){
 
-	$.get("https://raw.githubusercontent.com/RajeshPuramaneni127/assets/main/words_alpha-trie-autocomplete.txt",function(data){
+	$.get("https://raw.githubusercontent.com/RajeshPuramaneni127/QuickQuill/main/src/words.txt",function(data){
 		var input = data.split("\n") ;
 		insertTrie(input) ;
 	});
